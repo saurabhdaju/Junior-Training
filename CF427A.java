@@ -7,9 +7,9 @@ public class CF427A {
         int ans = 0, police = 0;
         for(int i=1; i<=n; i++) {
             int a = sc.nextInt();
-            if(a == -1) {
-                
-            }
+            if(police+a < 0 ) ans++;
+            else  police += a;
         }
+        System.out.println(ans);
     }
 }
