@@ -5,7 +5,9 @@ public class CF9A {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt(), b = sc.nextInt();
         int num = 7 - Math.max(a,b);
-        System.out.println(num + "/" + "6");
-        //INNCOMPLETE
+        if(num%6==0) System.out.println("1/1");
+        else if(num%2==0) System.out.println((num/2) + "/3");
+        else if (num%3==0) System.out.println((num/3) + "/2");
+        else System.out.println(num + "/6");
     }
 }
