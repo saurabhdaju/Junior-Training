@@ -4,7 +4,7 @@ import java.util.Scanner;
 // https://codeforces.com/problemset/problem/1138/A
 
 // although the question is of binary search but since i am not getting an idea of how to do it with binary search , so i'm trying linear search here.
-// hoping not to get a TLE :)
+// btw its not giving me TLE :)
 public class CF1138A {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
